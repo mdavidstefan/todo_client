@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background: #5A3F37;
+  background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);
+  background: linear-gradient(to right, #2C7744, #5A3F37);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  min-height: 100vh;
+}
+
+.login {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2C7744;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
